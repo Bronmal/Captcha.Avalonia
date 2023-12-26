@@ -9,6 +9,9 @@
         <Authors>Bronmal</Authors>
         <Description>Easy and simple capthca for avalonia</Description>
         <PackageTags>avalonia captcha</PackageTags>
+        <PackageProjectUrl>https://github.com/Bronmal/Captcha.Avalonia</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryUrl>https://github.com/Bronmal/Captcha.Avalonia</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
