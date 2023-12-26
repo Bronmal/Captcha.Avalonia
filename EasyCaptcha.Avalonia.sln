@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCaptcha.Avalonia", "EasyCaptcha.Avalonia\EasyCaptcha.Avalonia.csproj", "{97A9781C-F10A-4ED7-9ADE-9B90A0189EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCaptchaTest.Avalonia", "EasyCaptchaTest.Avalonia\EasyCaptchaTest.Avalonia.csproj", "{A968E577-7AB1-4FE3-94A0-4393C435A179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A9781C-F10A-4ED7-9ADE-9B90A0189EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A9781C-F10A-4ED7-9ADE-9B90A0189EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A9781C-F10A-4ED7-9ADE-9B90A0189EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A9781C-F10A-4ED7-9ADE-9B90A0189EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A968E577-7AB1-4FE3-94A0-4393C435A179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A968E577-7AB1-4FE3-94A0-4393C435A179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A968E577-7AB1-4FE3-94A0-4393C435A179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A968E577-7AB1-4FE3-94A0-4393C435A179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

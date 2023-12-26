@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="EasyCaptcha.Avalonia/EasyCaptcha.axaml" value="EasyCaptcha.Avalonia/EasyCaptcha.Avalonia.csproj" />
+        <entry key="EasyCaptcha.Avalonia/MainWindow.axaml" value="EasyCaptcha.Avalonia/EasyCaptcha.Avalonia.csproj" />
+        <entry key="EasyCaptcha.Avalonia/eCaptcha.axaml" value="EasyCaptcha.Avalonia/EasyCaptcha.Avalonia.csproj" />
+        <entry key="EasyCaptchaTest.Avalonia/MainWindow.axaml" value="EasyCaptchaTest.Avalonia/EasyCaptchaTest.Avalonia.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
