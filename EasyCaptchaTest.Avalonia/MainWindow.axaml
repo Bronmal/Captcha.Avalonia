@@ -4,11 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EasyCaptchaTest.Avalonia.MainWindow"
-        xmlns:capthca="clr-namespace:EasyCaptcha.Avalonia;assembly=EasyCaptcha.Avalonia"
+        xmlns:capthca="clr-namespace:Captcha.Avalonia;assembly=Captcha.Avalonia"
         Title="EasyCaptchaTest.Avalonia">
         
         <Grid RowDefinitions="*,*,*,*,*" ColumnDefinitions="*,*,*,*,*">
-                <capthca:ECaptchaControl Grid.Row="2" Grid.Column="2" Name="CaptchaControl" />
+                <capthca:CaptchaAvalonia Grid.Row="2" Grid.Column="2" Name="CaptchaControl" />
                 
                 <Button Grid.Row="3" Grid.Column="2" Click="Button_OnClick"
                         HorizontalAlignment="Center">

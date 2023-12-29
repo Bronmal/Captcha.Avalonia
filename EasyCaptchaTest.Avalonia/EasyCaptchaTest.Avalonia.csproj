@@ -20,6 +20,6 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\EasyCaptcha.Avalonia\EasyCaptcha.Avalonia.csproj" />
+      <ProjectReference Include="..\Captcha.Avalonia\Captcha.Avalonia.csproj" />
     </ItemGroup>
 </Project>

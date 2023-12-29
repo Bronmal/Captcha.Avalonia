@@ -3,9 +3,9 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
-using Path = Avalonia.Controls.Shapes.Path;
+using EasyCaptcha.Avalonia;
 
-namespace EasyCaptcha.Avalonia;
+namespace Captcha.Avalonia;
 
 public class Capthca
 {

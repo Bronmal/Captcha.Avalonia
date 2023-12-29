@@ -1,9 +1,9 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Media;
 
-namespace EasyCaptcha.Avalonia;
+namespace Captcha.Avalonia;
 
-public class ECaptchaControl : Control
+public class CaptchaAvalonia : Control
 {
     private Capthca _capthca = new();
     public Capthca.LetterOptionEnum LetterOption = Capthca.LetterOptionEnum.Alphanumeric;
@@ -14,7 +14,7 @@ public class ECaptchaControl : Control
         set => _capthca.NumberOfLetters = value;
     }
 
-    public ECaptchaControl()
+    public CaptchaAvalonia()
     {
         _capthca.GenerateNew(LetterOption, NumberOfLetters);
     }

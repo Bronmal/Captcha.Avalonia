@@ -1,7 +1,7 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using EasyCaptcha.Avalonia;
+using Captcha.Avalonia;
 
 namespace EasyCaptchaTest.Avalonia;
 
