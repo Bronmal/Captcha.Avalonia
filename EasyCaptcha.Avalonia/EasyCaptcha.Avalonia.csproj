@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.0.1</Version>
+        <Version>0.0.0.1</Version>
         <Title>Captcha.Avalonia</Title>
         <Authors>Bronmal</Authors>
         <Description>Easy and simple capthca for avalonia</Description>
@@ -12,6 +12,11 @@
         <PackageProjectUrl>https://github.com/Bronmal/Captcha.Avalonia</PackageProjectUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/Bronmal/Captcha.Avalonia</RepositoryUrl>
+        <PackageId>Captcha.Avalonia</PackageId>
+        <Product>Captcha.Avalonia</Product>
+        <PackageLicenseExpression> Apache-2.0</PackageLicenseExpression>
+        <AssemblyName>Captcha.Avalonia</AssemblyName>
+        <RootNamespace>Captcha.Avalonia</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

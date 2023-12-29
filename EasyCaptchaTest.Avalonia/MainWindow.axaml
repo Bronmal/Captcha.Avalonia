@@ -4,12 +4,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EasyCaptchaTest.Avalonia.MainWindow"
-        xmlns:cc="clr-namespace:EasyCaptcha.Avalonia;assembly=EasyCaptcha.Avalonia"
+        xmlns:capthca="clr-namespace:EasyCaptcha.Avalonia;assembly=EasyCaptcha.Avalonia"
         Title="EasyCaptchaTest.Avalonia">
         
-        <StackPanel>
-                <Button Click="Button_OnClick">sdfs</Button>
-                <cc:ECaptchaControl Width="200" Height="50" Name="CaptchaControl" />
-        </StackPanel>
+        <Grid RowDefinitions="*,*,*,*,*" ColumnDefinitions="*,*,*,*,*">
+                <capthca:ECaptchaControl Grid.Row="2" Grid.Column="2" Name="CaptchaControl" />
+                
+                <Button Grid.Row="3" Grid.Column="2" Click="Button_OnClick"
+                        HorizontalAlignment="Center">
+                        Generate
+                </Button>
+                
+                <Button Grid.Row="4" Grid.Column="3" Click="Button_OnClick1"
+                        HorizontalAlignment="Center" VerticalAlignment="Bottom">Random params</Button>
+                
+                <Label Grid.Row="4" Grid.Column="4" Name="CaptchaAnswer"
+                       HorizontalAlignment="Center" VerticalAlignment="Bottom"></Label>
+        </Grid>
         
 </Window>
